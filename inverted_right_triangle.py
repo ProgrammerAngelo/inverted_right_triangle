@@ -5,6 +5,9 @@ def inverted_right_triangle(n):
     for i in range(n, 0 , -1):
         print("*" * i)
 
+    #for raising an error if the inpuit value is negative
+    if n <= 0:
+        raise ValueError("Invalid! The height of the triangle cannot be negative")
 
 try:
     #for getting the user input
