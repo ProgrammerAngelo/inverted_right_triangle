@@ -9,6 +9,9 @@ def inverted_right_triangle(n):
     if n <= 0:
         raise ValueError("Invalid! The height of the triangle cannot be negative")
 
+print("Generating inverted right triangle")
+print("Hello User\n")
+
 try:
     #for getting the user input
     height = int(input("Enter the height of the triangle: "))
